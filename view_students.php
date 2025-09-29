@@ -11,7 +11,7 @@ if ($conn->connect_error) {
 
 $sql = "SELECT * FROM students ORDER BY id DESC";
 $result = $conn->query($sql);
-?>
+?> 
 
 <!DOCTYPE html>
 <html>
